@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        android:textSize="30dp"
+        android:textColor="@color/red"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+
+            android:id="@+id/tx_h1number1"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="*"
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tx_h1number2"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:text="="
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+
+            />
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/hed1"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="44dp"
+            android:inputType="number"
+            android:hint="int"
+
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:text="Hint"
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+
+            />
+        <Spinner
+
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+
+            android:textColor="@color/black"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/tx_error1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+
+            android:id="@+id/tx_h2number1"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="*"
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tx_h2number2"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+
+            />
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:text="="
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+
+            />
+
+
+        <EditText
+
+            android:id="@+id/hed2"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="44dp"
+            android:inputType="number"
+
+            android:hint="int"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:text="Hint"
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+
+            />
+
+        <Spinner
+
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:textColor="@color/black"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <TextView
+
+        android:id="@+id/tx_error2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+    </LinearLayout>
+</LinearLayout>
